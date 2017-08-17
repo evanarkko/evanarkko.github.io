@@ -1,0 +1,62 @@
+#indexbody {
+    background-color: #deb390;
+}
+
+h1 {
+    color: black;
+    left: 65%;
+    top: 60%;
+    font-family: "Times New Roman";
+    font-size: 2em;
+    font-style: italic;
+    position: absolute; 
+}
+
+#name{
+	width: 30em;
+	height: 25em;
+	left: 37%;
+	top: 8%;
+	position: absolute;
+}
+
+#portrait{
+	width: 26em;
+	height: 30em;
+	top: 1%;
+	left: 2%;
+	position: absolute;
+}
+
+
+
+#topbar{
+	top:7%;
+	right: 1%;
+	position: absolute;
+}
+
+#topbarbg{
+	width: 100%;
+	height: 31em;
+}
+
+#navigator1{
+	left: 1%;
+	top: 72%;
+	position: absolute;
+}
+
+#navigator2{
+	right: 1%;
+	top: 72%;
+	position: absolute;
+}
+
+#nayttelija, #terapeutti, #kirjailija, #cv, #kouluttaja, #blogi, #otayhteytta {
+	font-size: 3em;
+	font-weight: bold;
+	top: 1em;
+	position: relative;
+	color: black;
+}
