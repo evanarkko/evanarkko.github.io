@@ -55,12 +55,23 @@ h1 {
 	position: absolute;
 }
 
-#nayttelija, #terapeutti, #kirjailija, #cv, #kouluttaja, #otayhteytta {
+#nayttelija, #terapeutti, #kirjailija, #cv, #otayhteytta {
 	font-size: 3vw;
 	font-weight: bold;
 	top: 1em;
 	position: relative;
 	color: black;
+}
+
+#kouluttaja{
+    color: black;
+    text-decoration: none;
+    background-color: lightgray;
+    font-size: 4vw;
+}
+#kouluttaja:hover{
+    color: white;
+    background-color: #47473c;
 }
 
 #blogi{
@@ -177,6 +188,7 @@ h1 {
 
 /* Dropdown button on hover & focus */
 .kir-dropbtn:hover, .dropbtn:focus {
+    color: white;
     background-color: #47473c;
 }
 
@@ -222,6 +234,7 @@ h1 {
 
 /* Dropdown button on hover & focus */
 .tea-dropbtn:hover, .dropbtn:focus {
+    color: white;
     background-color: #47473c;
 }
 
@@ -251,6 +264,50 @@ h1 {
 
 /* Change color of dropdown links on hover */
 .tea-dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* Dropdown Button */
+.psy-dropbtn {
+    color: black;
+    font-size: 3vw;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.psy-dropbtn:hover, .dropbtn:focus {
+    color: white;
+    background-color: #47473c;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.psy-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.psy-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.psy-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.psy-dropdown-content a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
