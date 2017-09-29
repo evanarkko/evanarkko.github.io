@@ -4,7 +4,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="../styles/style1.css">
-<title>SomethingElse</title>
+<title>WTF</title>
 </head>
 
 
@@ -13,60 +13,58 @@
 <img src="../images/topbar_background.jpg" alt="background" id="topbarbg">
 
 	<div id="topbar">
-		<div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">CV</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="../web/viewer.html?file=Ansioluettelo_Katja_2017 (1).pdf">Ansioluettelo</a>
-    <a href="#contact">Näyttelijänä</a>
-    <a href="#about">Kouluttajana</a>
-    <a href="#contact">Psykoterapeuttina</a>
-    <a href="#contact"></a>
-    <a href="#contact"></a>
-    <a href="#contact"></a>
-    <a href="#contact"></a>
-  </div>
-</div>
+		<div class="cv-dropdown">
+			<button onclick="cvFunction()" class="cv-dropbtn">CV</button>
+		  <div id="myCVDropdown" class="cv-dropdown-content">
+			<a href="../web/viewer.html?file=Ansioluettelo_Katja_2017 (1).pdf">Ansioluettelo</a>
+			<a href="#contact">Näyttelijänä</a>
+			<a href="#about">Kouluttajana</a>
+			<a href="#contact">Psykoterapeuttina</a>
+		  </div>
+		</div>
 
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-		<br><br><br>
+<script src="scripts/script1.js"></script>
+		<br><br><br><br>
 	    <a href="layouts/blogi.html" id="blogi">Blogi (Tulossa)</a><br><br><br><br>
-	    <a href="layouts/otayhteytta.html" id="otayhteytta">Ota yhteyttä</a>
+
+		<div class="ct-dropdown">
+			<button onclick="ctFunction()" class="ct-dropbtn">Ota Yhteyttä</button>
+			<div id="myCTDropdown" class="ct-dropdown-content">
+				<p>Mail: katjakiuru@gmail.com</p>
+				<p>Puh: +358 40 812 6244</p>
+			</div>
+		</div>
+
 	</div>
 
 	<div id="navigator1">
-		<a href="layouts/nayttelija.html" id="nayttelija">Teatteritaiteen Maisteri, näyttelijä</a><br><br>
+		<div class="tea-dropdown">
+			<button onclick="teaFunction()" class="tea-dropbtn">Teatteritieteen maisteri/Näyttelijä</button>
+			<div id="myTeaDropdown" class="tea-dropdown-content">
+
+				<a>1. Ansioluettelo (pdf)</a>
+				<a>2. Kuvia</a>
+				<a>3. Kirjoituksia</a>
+			</div>
+		</div><br><br>
 		<a href="layouts/terapeutti.html" id="terapeutti">Keho-orientoitunut psykoterapeutti</a><br><br>
- 	</div><br><br>
- 	<div id="navigator2">
-	    <a href="layouts/kirjailija.html" id="kirjailija">Esikoiskirjailija</a><br><br>
-	    <a href="layouts/kouluttaja.html" id="kouluttaja">Kouluttaja/Luennoistija</a><br><br>
- 	</div><br><br>
+
+	</div><br><br>
+	<div id="navigator2">
+		<div class="kir-dropdown">
+			<button onclick="kirFunction()" class="kir-dropbtn">Esikoiskirjailija</button>
+			<div id="myKirDropdown" class="kir-dropdown-content">
+				<a>1. Palasina ja kokonaisena, paloja</a>
+				<a>2. Mediassa</a>
+			</div>
+		</div><br><br><br><br>
+		<a href="layouts/kouluttaja.html" id="kouluttaja">Kouluttaja/Luennoistija</a><br><br>
+	</div><br><br>
 
 
-	<img src="../images/kk2.png" alt="portrait of Katja" id="portrait">
-	<img src="../images/katjakiuru_nimi3.png" alt="Katja Kiuru" id="name">
-	<h1>Kotisivu</h1>
+
+	<a href="layouts/kirjailija.html" title="(c) Eric Uddström"><img src="../images/kk2.png" alt="portrait of Katja" id="portrait"></a>
+	<a href="layouts/lentovideo.html" title="Katja Lentää"><img src="../images/katjakiuru_nimi3.png" alt="Katja Kiuru" id="name"></a>
 
 </body>
 
