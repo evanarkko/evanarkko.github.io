@@ -125,7 +125,7 @@ h1 {
 .cv-dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: pink;
     font-size: 130%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -173,7 +173,7 @@ h1 {
 .ct-dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: lightseagreen;
     font-size: 130%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -220,7 +220,7 @@ h1 {
 .kir-dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: olive;
     font-size: 130%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -267,8 +267,8 @@ h1 {
 .tea-dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    font-size: 130%;
+    background-color: coral;
+    font-size: 140%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
