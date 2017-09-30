@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66bd8270-bb26-4a4d-abbe-a6cd7165372e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/palasinaJaKokonaisena.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/potretteja.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/potretteja.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Kuva Kari Riipinen.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/kuva Tiina Alvesalo.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/lentovideo.html" afterPath="$PROJECT_DIR$/layouts/lentovideo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/lentovideo.css" afterPath="$PROJECT_DIR$/styles/lentovideo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style1.css" afterPath="$PROJECT_DIR$/styles/style1.css" />
-    </list>
+    <list default="true" id="66bd8270-bb26-4a4d-abbe-a6cd7165372e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lentovideo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lentovideo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/lentovideo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -38,8 +27,8 @@
       <file leaf-file-name="script1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/script1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lentovideo.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lentovideo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/lentovideo.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -245,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1506696707780</updated>
       <workItem from="1506696710777" duration="2694000" />
-      <workItem from="1506761105828" duration="4247000" />
+      <workItem from="1506761105828" duration="4433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6941000" />
+    <option name="totallyTimeSpent" value="7127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1989" y="-4" width="1297" height="772" extended-state="6" />
@@ -373,14 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/script1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/blogi.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -445,18 +426,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/lentovideo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/lentovideo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/script1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/lentovideo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
