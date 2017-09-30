@@ -15,8 +15,9 @@ h1 {
 #name{
 	width: 30%;
 	height: 25em;
-	left: 37%;
+	left: 35%;
 	top: 8%;
+    border-radius:20px;
 	position: absolute;
 }
 
