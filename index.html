@@ -39,7 +39,7 @@
 
 	<div id="navigator1">
 		<div class="tea-dropdown">
-			<button onclick="teaFunction()" class="tea-dropbtn">Teatteritaiteen maisteri/Näyttelijä</button>
+			<button onclick="teaFunction()" id="tea-dropbtn">Teatteritaiteen maisteri/Näyttelijä</button>
 			<div id="myTeaDropdown" class="tea-dropdown-content">
 				<a href="../web/viewer.html?file=CV_Nayttelija.pdf">1. Ansioluettelo (pdf)</a>
 				<a href="layouts/roolikuvia.html">2. Kuvia</a>
@@ -47,7 +47,7 @@
 			</div>
 		</div><br><br>
 		<div class="psy-dropdown">
-			<button onclick="psyFunction()" class="psy-dropbtn">Keho-orientoitunut psykoterapeutti</button>
+			<button onclick="psyFunction()" id="psy-dropbtn">Keho-orientoitunut psykoterapeutti</button>
 			<div id="myPsyDropdown" class="psy-dropdown-content">
  				<a href="../web/viewer.html?file=CV_Psykoterapeutti.pdf">1. Ansioluettelo (pdf)</a>
 				<a>2. Koulutus</a>
@@ -57,13 +57,15 @@
 
 	<div id="navigator2">
 		<div class="kir-dropdown">
-			<button onclick="kirFunction()" class="kir-dropbtn">Esikoiskirjailija</button>
+			<button onclick="kirFunction()" id="kir-dropbtn">Esikoiskirjailija</button>
 			<div id="myKirDropdown" class="kir-dropdown-content">
 				<a href="layouts/palasinaJaKokonaisena.html">1. Palasina ja kokonaisena, paloja</a>
 				<a>2. Mediassa</a>
 			</div>
-		</div><br><br><br><br>
-		<a href="layouts/kouluttaja.html" id="kouluttaja">Kouluttaja/Luennoistija</a><br><br>
+		</div><br><br>
+		<div class="kouluttaja-button">
+			<a href="layouts/kouluttaja.html" ><button id="kouluttaja">Kouluttaja/Luennoitsija</button></a><br><br>
+		</div>
 	</div><br><br>
 
 	<a href="layouts/apurahat.html" id="apurahat">Apurahat</a>

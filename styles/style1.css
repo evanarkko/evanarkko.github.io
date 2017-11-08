@@ -14,7 +14,7 @@ h1 {
 
 #name{
     color: white;
-    font-size: 8.5em;
+    font-size: 8.5vw;
     font-weight: bolder;
 	left: 35%;
 	top: -3%;
@@ -69,7 +69,8 @@ h1 {
 }
 
 #nayttelija, #terapeutti, #kirjailija, #cv, #otayhteytta {
-	font-size: 3vw;
+
+	font-size: 2vw;
 	font-weight: bold;
 	top: 1em;
 	position: relative;
@@ -77,14 +78,20 @@ h1 {
 }
 
 #kouluttaja{
+    height: 3em;
+    width:15em;
     color: black;
-    text-decoration: none;
-    background-color: lightgray;
-    font-size: 4vw;
+    font-size: 3vw;
+    border: none;
+    cursor: pointer;
 }
 #kouluttaja:hover{
     color: white;
     background-color: #47473c;
+}
+.kouluttaja-button {
+    position: relative;
+    display: inline-block;
 }
 
 #blogi{
@@ -198,15 +205,17 @@ h1 {
 
 
 /* Dropdown Button */
-.kir-dropbtn {
+#kir-dropbtn {
+    height: 3em;
+    width:15em;
     color: black;
-    font-size: 4vw;
+    font-size: 3vw;
     border: none;
     cursor: pointer;
 }
 
 /* Dropdown button on hover & focus */
-.kir-dropbtn:hover, .dropbtn:focus {
+#kir-dropbtn:hover, .dropbtn:focus {
     color: white;
     background-color: #47473c;
 }
@@ -245,7 +254,9 @@ h1 {
 
 
     /* Dropdown Button */
-.tea-dropbtn {
+#tea-dropbtn {
+    height: 3em;
+    width:15em;
     color: black;
     font-size: 3vw;
     border: none;
@@ -253,7 +264,7 @@ h1 {
 }
 
 /* Dropdown button on hover & focus */
-.tea-dropbtn:hover, .dropbtn:focus {
+#tea-dropbtn:hover, .dropbtn:focus {
     color: white;
     background-color: #47473c;
 }
@@ -290,7 +301,9 @@ h1 {
 .show {display:block;}
 
 /* Dropdown Button */
-.psy-dropbtn {
+#psy-dropbtn {
+    height: 3em;
+    width:15em;
     color: black;
     font-size: 3vw;
     border: none;
@@ -298,7 +311,7 @@ h1 {
 }
 
 /* Dropdown button on hover & focus */
-.psy-dropbtn:hover, .dropbtn:focus {
+#psy-dropbtn:hover, .dropbtn:focus {
     color: white;
     background-color: #47473c;
 }
