@@ -13,11 +13,10 @@ h1 {
 }
 
 #name{
-	width: 30%;
-	height: 25em;
+    font-size: 4em;
+    font-weight: bolder;
 	left: 35%;
 	top: 8%;
-    border-radius:20px;
 	position: absolute;
 }
 
