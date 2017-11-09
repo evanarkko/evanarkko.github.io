@@ -16,7 +16,7 @@ h1 {
     color: cornsilk;
     font-size: 8.5vw;
     font-weight: bolder;
-	left: 35%;
+	left: 35vw;
     top: -5vw;
 	position: absolute;
 }
@@ -24,7 +24,7 @@ h1 {
 #namebg{
     position: absolute;
     opacity: 0.3;
-    left: 35%;
+    left: 35vw;
     top: 5vw;
     background-color: black;
     width:28.5vw;
@@ -32,10 +32,10 @@ h1 {
 }
 
 #portrait{
-	width: 25%;
-	height: 30em;
+	width: 24vw;
+	height: 50vh;
 	top: 1%;
-	left: 5%;
+	left: 5vw;
 	position: absolute;
 }
 
@@ -49,7 +49,7 @@ h1 {
 }
 
 #topbarbg{
-	width: 100%;
+	width: 100vw;
 	height: 31em;
 }
 
@@ -275,7 +275,7 @@ h1 {
 .psy-dropdown-content{
     border-radius: 1vw;
     display: none;
-    background-color: darkmagenta;
+    background-color: hotpink;
     font-size: 140%;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
