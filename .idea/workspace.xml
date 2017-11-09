@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66bd8270-bb26-4a4d-abbe-a6cd7165372e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Gold-Background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/katjakiuru_nimi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/katjakiuru_nimi2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/katjakiuru_nimi3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/katjakiuru_nimi4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/topbar_background.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/palasinaJaKokonaisena.html" afterPath="$PROJECT_DIR$/layouts/palasinaJaKokonaisena.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/potretteja.html" afterPath="$PROJECT_DIR$/layouts/potretteja.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/script1.js" afterPath="$PROJECT_DIR$/scripts/script1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style1.css" afterPath="$PROJECT_DIR$/styles/style1.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +29,8 @@
       <file leaf-file-name="potretteja.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/potretteja.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="94" lean-forward="false" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+            <state relative-caret-position="270">
+              <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -263,12 +253,12 @@
       <workItem from="1506802107968" duration="442000" />
       <workItem from="1507202381746" duration="34000" />
       <workItem from="1510142887903" duration="3040000" />
-      <workItem from="1510146804962" duration="7634000" />
+      <workItem from="1510146804962" duration="8035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25615000" />
+    <option name="totallyTimeSpent" value="26016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="-11" width="1853" height="1092" extended-state="6" />
@@ -694,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/potretteja.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="94" lean-forward="false" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+        <state relative-caret-position="270">
+          <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
           <folding />
         </state>
       </provider>
