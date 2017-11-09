@@ -59,7 +59,7 @@ h1 {
 
 #blogi{
     background-color: black;
-    opacity: 0.75;
+    opacity: 0.65;
     color: white;
     padding: 16px;
     font-size: 3em;
@@ -75,7 +75,7 @@ h1 {
 /* Dropdown Button */
 .cv-dropbtn {
     background-color: black;
-    opacity: 0.75;
+    opacity: 0.65;
     color: white;
     padding: 16px;
     font-size: 3em;
@@ -124,7 +124,7 @@ h1 {
     /* Dropdown Button */
 .ct-dropbtn {
     background-color: black;
-    opacity: 0.75;
+    opacity: 0.65;
     color: white;
     padding: 16px;
     font-size: 3em;
