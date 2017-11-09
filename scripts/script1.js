@@ -39,57 +39,13 @@ function kirFunction() {
     document.getElementById("myKirDropdown").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-    if (!event.target.matches('.kir-dropbtn')) {
-
-        var dropdowns = document.getElementsByClassName("kir-dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}
 function teaFunction() {
     console.log(document.getElementById("myTeaDropdown").classList);
     document.getElementById("myTeaDropdown").classList.toggle("show");
     console.log(document.getElementById("myTeaDropdown").classList);
 }
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-    if (!event.target.matches('.tea-dropbtn')) {
-
-        var dropdowns = document.getElementsByClassName("tea-dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}
 function psyFunction() {
     console.log(document.getElementById("myPsyDropdown").classList);
     document.getElementById("myPsyDropdown").classList.toggle("show");
     console.log(document.getElementById("myPsyDropdown").classList);
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-    if (!event.target.matches('.psy-dropbtn')) {
-
-        var dropdowns = document.getElementsByClassName("psy-dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
 }
