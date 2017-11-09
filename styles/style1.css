@@ -1,5 +1,5 @@
-#cvbody {
-    background-color: indianred;
+#indexbody {
+    background-color: cornsilk;
 }
 
 h1 {
@@ -13,11 +13,11 @@ h1 {
 }
 
 #name{
-    color: white;
+    color: cornsilk;
     font-size: 8.5vw;
     font-weight: bolder;
 	left: 35%;
-	top: -3%;
+    top: -5vw;
 	position: absolute;
 }
 
@@ -36,17 +36,6 @@ h1 {
     left: 70%;
 	top:7em;
 	position: absolute;
-}
-
-#apurahat{
-    color:white;
-    background-color: black;
-    position:absolute;
-    font-size: larger;
-    font-style: oblique;
-    font-weight: bold;
-    top: 5em;
-    left: 85%;
 }
 
 #topbarbg{
@@ -68,34 +57,9 @@ h1 {
 	position: absolute;
 }
 
-#nayttelija, #terapeutti, #kirjailija, #cv, #otayhteytta {
-
-	font-size: 2vw;
-	font-weight: bold;
-	top: 1em;
-	position: relative;
-	color: black;
-}
-
-#kouluttaja{
-    height: 3em;
-    width:15em;
-    color: black;
-    font-size: 3vw;
-    border: none;
-    cursor: pointer;
-}
-#kouluttaja:hover{
-    color: white;
-    background-color: #47473c;
-}
-.kouluttaja-button {
-    position: relative;
-    display: inline-block;
-}
-
 #blogi{
     background-color: black;
+    opacity: 0.75;
     color: white;
     padding: 16px;
     font-size: 3em;
@@ -111,6 +75,7 @@ h1 {
 /* Dropdown Button */
 .cv-dropbtn {
     background-color: black;
+    opacity: 0.75;
     color: white;
     padding: 16px;
     font-size: 3em;
@@ -159,6 +124,7 @@ h1 {
     /* Dropdown Button */
 .ct-dropbtn {
     background-color: black;
+    opacity: 0.75;
     color: white;
     padding: 16px;
     font-size: 3em;
@@ -205,17 +171,20 @@ h1 {
 
 
 /* Dropdown Button */
-#kir-dropbtn {
+.bottom-dropbtn {
+    background-color: #FF5555;
+    border: solid black;
     height: 3em;
     width:15em;
     color: black;
     font-size: 3vw;
-    border: none;
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 2vw;
 }
 
 /* Dropdown button on hover & focus */
-#kir-dropbtn:hover, .dropbtn:focus {
+.bottom-dropbtn:hover{
     color: white;
     background-color: #47473c;
 }
@@ -230,6 +199,7 @@ h1 {
 .kir-dropdown-content {
     display: none;
     position: absolute;
+    border-radius: 1vw;
     background-color: olive;
     font-size: 130%;
     min-width: 160px;
@@ -251,23 +221,6 @@ h1 {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-
-
-    /* Dropdown Button */
-#tea-dropbtn {
-    height: 3em;
-    width:15em;
-    color: black;
-    font-size: 3vw;
-    border: none;
-    cursor: pointer;
-}
-
-/* Dropdown button on hover & focus */
-#tea-dropbtn:hover, .dropbtn:focus {
-    color: white;
-    background-color: #47473c;
-}
 
 /* The container <div> - needed to position the dropdown content */
 .tea-dropdown {
@@ -300,21 +253,6 @@ h1 {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-/* Dropdown Button */
-#psy-dropbtn {
-    height: 3em;
-    width:15em;
-    color: black;
-    font-size: 3vw;
-    border: none;
-    cursor: pointer;
-}
-
-/* Dropdown button on hover & focus */
-#psy-dropbtn:hover, .dropbtn:focus {
-    color: white;
-    background-color: #47473c;
-}
 
 /* The container <div> - needed to position the dropdown content */
 .psy-dropdown {
@@ -323,7 +261,7 @@ h1 {
 }
 
 /* Dropdown Content (Hidden by Default) */
-.psy-dropdown-content {
+.psy-dropdown-content{
     display: none;
     position: absolute;
     background-color: darkmagenta;

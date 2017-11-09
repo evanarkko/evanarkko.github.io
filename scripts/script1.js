@@ -54,7 +54,9 @@ window.onclick = function(event) {
     }
 }
 function teaFunction() {
+    console.log(document.getElementById("myTeaDropdown").classList);
     document.getElementById("myTeaDropdown").classList.toggle("show");
+    console.log(document.getElementById("myTeaDropdown").classList);
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -72,7 +74,9 @@ window.onclick = function(event) {
     }
 }
 function psyFunction() {
+    console.log(document.getElementById("myPsyDropdown").classList);
     document.getElementById("myPsyDropdown").classList.toggle("show");
+    console.log(document.getElementById("myPsyDropdown").classList);
 }
 
 // Close the dropdown if the user clicks outside of it
