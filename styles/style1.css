@@ -25,10 +25,10 @@ h1 {
     position: absolute;
     opacity: 0.3;
     left: 35vw;
-    top: 5vw;
+    top: 9vh;
     background-color: black;
     width:28.5vw;
-    height:17vw;
+    height:33vh;
 }
 
 #portrait{
@@ -49,8 +49,8 @@ h1 {
 }
 
 #topbarbg{
-	width: 100vw;
-	height: 31em;
+	width: 99vw;
+	height: 55vh;
 }
 
 #navigator1{
