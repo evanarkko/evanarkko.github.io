@@ -3,7 +3,7 @@
 
 
 <head>
-<link rel="stylesheet" type="text/css" href="../styles/style1.css">
+<link rel="stylesheet" type="text/css" href="../styles/index.css">
 <title>Katja Kiurun Kotisivu</title>
 </head>
 
@@ -11,41 +11,41 @@
 
 
 <body id="indexbody">
-<a href="layouts/lentovideo.html" title="Katja Lentää">
-	<div id="namebg"></div>
-	<h3 id="name">KATJA<br>KIURU</h3>
-</a>
-
-<img src="../images/Bochum, Essen -90-1.jpg" alt="background" id="topbarbg">
-
-	<div id="topbar">
-		<div class="cv-dropdown">
-			<button onclick="cvFunction()" class="cv-dropbtn">Ansioluettelo</button>
-		  <div id="myCVDropdown" class="cv-dropdown-content">
-			<a href="../web/viewer.html?file=Ansioluettelo_Katja_2017.pdf">Koko CV</a>
-			<a href="../web/viewer.html?file=CV_Nayttelija.pdf">Näyttelijänä</a>
-			<a href="layouts/kouluttaja.html">Kouluttajana</a>
-			<a href="../web/viewer.html?file=CV_Psykoterapeutti.pdf">Psykoterapeuttina</a>
-			<a href="layouts/apurahat.html">Apurahat</a>
-		  </div>
+	<div id="topBar">
+		<img src="images/Bochum,%20Essen%20-90-1.jpg" alt=""/>
+		<div class="topBarBlock">
+			<img src="images/kk2.png" alt="">
 		</div>
-
-<script src="scripts/script1.js"></script>
-		<br><br><br>
-
-		<a href="layouts/blogi.html"><button id="blogi">Blogi (Tulossa)</button></a><br><br><br>
-
-		<div class="ct-dropdown">
-			<button onclick="ctFunction()" class="ct-dropbtn">Ota Yhteyttä</button>
-			<div id="myCTDropdown" class="ct-dropdown-content">
-				<p>eMail: katjakiuru@gmail.com</p>
-				<p>Puh: +358 50 352 4739</p>
+		<div class="topBarBlock" id="mainHeader">
+			<a id="mainHeaderLink" href="layouts/lentovideo.html" title="Katja Lentää">
+				<h>KATJA<br>KIURU</h>
+			</a>
+		</div>
+		<div class="topBarBlock">
+			<br>
+			<div class="cv-dropdown">
+				<button onclick="cvFunction()" class="cv-dropbtn">Ansioluettelo</button>
+				<div id="myCVDropdown" class="cv-dropdown-content">
+					<a href="../web/viewer.html?file=Ansioluettelo_Katja_2017.pdf">Koko CV</a>
+					<a href="../web/viewer.html?file=CV_Nayttelija.pdf">Näyttelijänä</a>
+					<a href="layouts/kouluttaja.html">Kouluttajana</a>
+					<a href="../web/viewer.html?file=CV_Psykoterapeutti.pdf">Psykoterapeuttina</a>
+					<a href="layouts/apurahat.html">Apurahat</a>
+				</div>
+			</div><br><br>
+			<a href="layouts/blogi.html"><button id="blogButton">Blogi</button></a><br><br>
+			<div class="cv-dropdown">
+				<button onclick="ctFunction()" class="cv-dropbtn">Ota Yhteyttä</button>
+				<div id="myCTDropdown" class="cv-dropdown-content">
+					<p>eMail: katjakiuru@gmail.com</p>
+					<p>Puh: +358 50 352 4739</p>
+				</div>
 			</div>
+
 		</div>
+	</div><br>
 
-	</div>
-
-	<div id="navigator1">
+	<div id="leftActionBar">
 		<div class="tea-dropdown">
 			<button onclick="teaFunction()" class="bottom-dropbtn">Teatteritaiteen maisteri/Näyttelijä</button>
 			<div id="myTeaDropdown" class="tea-dropdown-content">
@@ -53,36 +53,52 @@
 				<a href="layouts/roolikuvia.html">2. Kuvia</a>
 				<a href="layouts/nayttelijakirjoituksia.html">3. Kirjoituksia</a>
 			</div>
-		</div><br><br>
-		<div class="psy-dropdown">
+		</div><br>
+		<div class="tea-dropdown">
 			<button onclick="psyFunction()" class="bottom-dropbtn">Keho-orientoitunut psykoterapeutti</button>
-			<div id="myPsyDropdown" class="psy-dropdown-content">
- 				<a href="../web/viewer.html?file=CV_Psykoterapeutti.pdf">1. Ansioluettelo (pdf)</a>
+			<div id="myPsyDropdown" class="tea-dropdown-content">
+				<a href="../web/viewer.html?file=CV_Psykoterapeutti.pdf">1. Ansioluettelo (pdf)</a>
 				<a>2. Koulutus</a>
 			</div>
 		</div>
-	</div><br><br>
-
-	<div id="navigator2">
-		<div class="kir-dropdown">
+		<br>
+		<div class="tea-dropdown">
 			<button onclick="kirFunction()" class="bottom-dropbtn">Esikoiskirjailija</button>
-			<div id="myKirDropdown" class="kir-dropdown-content">
+			<div id="myKirDropdown" class="tea-dropdown-content">
 				<a href="layouts/palasinaJaKokonaisena.html">1. Palasina ja kokonaisena, paloja</a>
 				<a>2. Mediassa</a>
 			</div>
-		</div><br><br>
+		</div>
+		<br>
 		<div class="kouluttaja-button">
 			<a href="layouts/kouluttaja.html" ><button class="bottom-dropbtn">Kouluttaja/Luennoitsija</button></a><br><br>
 		</div>
-	</div><br><br>
+	</div>
 
 
+	<div id="katjaWiki">
+		<h class="smallTitle">Katja Kiuru</h><br><br>
+		Katja Kaarina Kiuru-Miller (s. 21. elokuuta 1965 Helsinki) opiskeli näyttelijäntyön linjallla Teatterikorkeakoulussa 1984-88. Tampereen Työväen Teatterin kiinnityksen jälkeen Kiuru jättäytyi vapaaksi näyttelijäksi. Töiden ohella Kiuru jatkoi näyttelijäntaiteen opintoja stanislavskilaisessa koulutuksessa Lontoossa, klovneriaa sekä intuitio- ja rituaaliteatteria työpajoissa Baltiassa ja Keski-Euroopassa, Venäjällä, Intiassa ja Kuubassa.
+		<br><br>
+		Näyttämö- ja radioroolien ohella Katja Kiuru on esiintynyt monissa suomalaisissa televisiosarjoissa ja elokuvissa.
+		<br><br>
 
 
+		Katja Kiuru-Miller on Valviran akreditoima erityistason psykoterapeutti. Hän opiskeli keho-orientoitunutta psykoterapiaa Suomen Luonneanalyyytisen vegetoterapiayhdistyksen, sittemmin Kehopsykoterapiayhdistys ry., koulutuksessa  vuosina 1999-2003.
+		<br><br><br><br>
 
-	<a href="layouts/potretteja.html" title="(c) Eric Uddström"><img src="../images/kk2.png" alt="portrait of Katja" id="portrait"></a>
-
-
+		<div><img class="linkLogo" src="images/linkedin_logo.png" alt=""/></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a target="_blank" class="linkTitle" id="linkedinLink" href="https://www.linkedin.com/in/katja-kiuru-64081447/">Linkedinissä</a>
+		<br>
+		<br>
+		<div><img class="linkLogo" src="images/imdb_logo.png" alt=""/></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a target="_blank" class="linkTitle" id="imdbLink" href="http://www.imdb.com/name/nm0457855/">IMDb:ssä</a>
+		<br>
+		<br>
+		<a class="linkTitle" href="layouts/potretteja.html">Potretteja</a>&nbsp;&nbsp;
+		<a class="linkTitle" href="layouts/blogi.html">Blogi</a>
+	</div>
 </body>
 
+<script src="scripts/script1.js"></script>
 </html>
