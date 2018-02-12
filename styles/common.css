@@ -4,4 +4,10 @@
 .review{
     border-top: dashed navy 1px;
 }
+#bookIcon{
+    float: right;
+    margin-right: 1em;  
+    width: 8vw;
+    height: auto;
+}
 
