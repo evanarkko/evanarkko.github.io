@@ -38,7 +38,7 @@ img{
     text-decoration: none;
 }
 
-#blogButton{
+.topBarButton{
     background-color: black;
     opacity: 0.65;
     color: white;
@@ -49,7 +49,7 @@ img{
     text-decoration: none;
 }
 
-#blogButton:hover{
+.topBarButton:hover{
     background-color: #47473c;;
 }
 
