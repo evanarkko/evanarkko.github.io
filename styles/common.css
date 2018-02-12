@@ -3,11 +3,12 @@
 }
 .review{
     border-top: dashed navy 1px;
+    max-width: 95vw;
 }
 #bookIcon{
     float: right;
-    margin-right: 1em;  
-    width: 8vw;
-    height: auto;
+    margin-right: 1em;
+    width: auto;
+    height: 20vh;
 }
 
